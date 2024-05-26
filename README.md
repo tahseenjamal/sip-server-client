@@ -6,13 +6,6 @@ A comprehensive SIP (Session Initiation Protocol) server and client implementati
 
 This project provides a SIP server and client solution, leveraging the pjsua2 library. It is designed to handle SIP signaling for VoIP (Voice over IP), instant messaging, and presence information. This implementation can be used for various SIP-based communication applications.
 
-## Features
-
-- **SIP Protocol Support**: Implements core SIP functionalities.
-- **Client and Server Modes**: Can operate as both SIP server and client.
-- **PJSIP Integration**: Uses the pjsua2 library for SIP signaling.
-- **Multi-Platform**: Compatible with various platforms.
-- **Modular Design**: Easy to extend and customize.
 
 ## Installation
 
@@ -31,17 +24,17 @@ This project provides a SIP server and client solution, leveraging the pjsua2 li
 
 2. **Build the Client**:
     ```bash
-    cd sip-client
+    cd client
     go get
-    go build main.go
+    go build client.go
     ```
 
 
 3. **Build the Server**:
     ```bash
-    cd sip-server
+    cd server
     go get
-    go build main.go
+    go build server.go
     ```
 
 ## Usage
@@ -50,24 +43,24 @@ This project provides a SIP server and client solution, leveraging the pjsua2 li
 
 1. Navigate to the client directory:
     ```bash
-    cd sip-server
+    cd server
     ```
 
 2. Run the client application:
     ```bash
-    ./main
+    ./server
     ```
 
 ### Running the Client
 
 1. Navigate to the client directory:
     ```bash
-    cd sip-client
+    cd client
     ```
 
 2. Run the client application:
     ```bash
-    ./main
+    ./client
     ```
 
 ## Configuration
